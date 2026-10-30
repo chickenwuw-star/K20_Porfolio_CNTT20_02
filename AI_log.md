@@ -13,38 +13,38 @@
 
 ## 1. Nhận định của tôi trước khi hỏi AI
 
-- Trang/thao tác gặp lỗi: [ ... ]
-- Mong muốn và hiện tượng thực tế: [ ... ]
-- Dữ kiện đã kiểm tra (cấu trúc tệp, Request URL, Status…): [ ... ]
-- Tôi nghi nguyên nhân là: [ ... ]
-- Vì sao tôi nhận định như vậy: [ ... ]
+- Trang/thao tác gặp lỗi: [Chưa kiểm tra]
+- Mong muốn và hiện tượng thực tế: [Chưa kiểm tra]
+- Dữ kiện đã kiểm tra (cấu trúc tệp, Request URL, Status…): [Chưa kiểm tra]
+- Tôi nghi nguyên nhân là: [ Chưa xác định]
+- Vì sao tôi nhận định như vậy: [ Chưa có đủ dữ kiện ]
 
 ## 2. Tôi hỏi AI và nhận được gợi ý
 
-- Nguồn: [ ] Công cụ AI: [ ... ]  [ ] Phản hồi mẫu của giảng viên
+- Nguồn: [ x ] Công cụ AI: [ ChatGPT ]  [ ] Phản hồi mẫu của giảng viên
 - Câu hỏi/prompt tôi đã gửi (hoặc tình huống của phản hồi mẫu):
 
-  [ ... ]
+  [ Chưa ghi nhận prompt xử lý lỗi cụ thể ]
 
 - Gợi ý chính của AI:
 
-  [ ... ]
+  [ sai liên kết css ]
 
 ## 3. Quyết định của tôi
 
-- [ ] Chấp nhận gợi ý
-- [ ] Chỉnh sửa gợi ý rồi áp dụng
+- [ x ] Chấp nhận gợi ý
+- [ x ] Chỉnh sửa gợi ý rồi áp dụng
 - [ ] Bác bỏ gợi ý
 
-- Tôi quyết định làm gì: [ ... ]
-- Lý do, dựa trên dữ kiện nào: [ ... ]
+- Tôi quyết định làm gì: [ liên kết lại css ]
+- Lý do, dựa trên dữ kiện nào: [ sai liên kết css ]
 
 ## 4. Thực hiện và kiểm chứng
 
-- Tệp/vị trí đã sửa (không sửa thì ghi rõ): [ ... ]
-- Nội dung thay đổi hoặc cách xử lý khác: [ ... ]
+- Tệp/vị trí đã sửa (không sửa thì ghi rõ): [ rel="stylesheet" href="css/style.css" ]
+- Nội dung thay đổi hoặc cách xử lý khác: [ liên kết lại css ]
 - Commit của bản sửa, nếu có: [ ... ]
-- Bản sửa đã deploy: [ ] Có  [ ] Chưa  [ ] Không phát sinh bản sửa
+- Bản sửa đã deploy: [ x ] Có  [ ] Chưa  [ ] Không phát sinh bản sửa
 
 | Nội dung kiểm tra | Trước xử lý | Sau xử lý/thử lại |
 | --- | --- | --- |
@@ -56,7 +56,7 @@
 
 ## 5. Kết luận
 
-- [ ] Đã xử lý được  [ ] Xử lý được một phần  [ ] Chưa xử lý được
+- [ x ] Đã xử lý được  [ ] Xử lý được một phần  [ ] Chưa xử lý được
 - Điều tôi rút ra hoặc việc cần làm tiếp: [ ... ]
 
 ---
